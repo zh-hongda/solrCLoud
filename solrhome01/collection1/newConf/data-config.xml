@@ -1,0 +1,34 @@
+<!-- <?xml version="1.0" encoding="UTF-8" ?> -->
+<dataConfig>
+  <dataSource type="BinFileDataSource" name="word"/>
+  <!-- mySQL数据源 -->
+  <dataSource type="JdbcDataSource" name="mySQL" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/searchengine?serverTimezone=UTC" user="root" password="root"/>
+  <document>
+    <entity name="JIT" processor="FileListEntityProcessor" dataSource="word"
+            baseDir="D:\NLZ_HD\solr-server\data\CNNOJIT" fileName=".(doc)|(pdf)|(docx)|(txt)|(csv)|(json)|(xml)|(pptx)|(pptx)|(ppt)|(xls)|(xlsx)"
+            rootEntity="false">
+
+      <field column="file" name="id"/>
+      <field column="file" name="JIT_title"/>
+      <field column="fileLastModified" name="JIT_fileLastModified"/>
+      <entity name="pdf" processor="TikaEntityProcessor"
+              url="${JIT.fileAbsolutePath}" format="text">        
+        <field column="Author" name="JIT_author" meta="true"/>
+        <field column="text" name="JIT_text"/>        
+
+      </entity>
+    </entity>
+
+        <!-- 定义导⼊实体 -->
+    <entity name="event" query="SELECT * FROM event " dataSource="mySQL">
+            <field column="eventNumber" name="id"/>
+            <field column="eventName" name="event_Name"/>
+            <field column="reportDate" name="event_reportDate"/>
+            <field column="eventLevel" name="event_Level"/>
+            <field column="nuclearPlant" name="event_nuclearPlant"/>
+            <field column="unitName" name="event_unitName"/>
+            <field column="unitNumber" name="event_unitNumber"/>
+            <field column="abstract" name="event_overView"/>
+    </entity>
+  </document>
+</dataConfig>

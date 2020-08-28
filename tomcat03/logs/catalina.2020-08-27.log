@@ -1,0 +1,766 @@
+八月 27, 2020 8:55:34 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+八月 27, 2020 8:55:34 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+八月 27, 2020 8:55:34 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+八月 27, 2020 8:55:34 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+八月 27, 2020 8:55:34 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+八月 27, 2020 8:55:34 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+八月 27, 2020 8:55:34 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.8.0_251\jre
+八月 27, 2020 8:55:34 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_251-b08
+八月 27, 2020 8:55:34 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+八月 27, 2020 8:55:34 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 8:55:34 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 8:55:34 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dsolr.solr.home=D:/NLZ_HD/solrCloud/solrhome03
+八月 27, 2020 8:55:34 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -DzkHost=localhost:2181,localhost:2182,localhost:2183
+八月 27, 2020 8:55:34 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\NLZ_HD\solrCloud\tomcat03\conf\logging.properties
+八月 27, 2020 8:55:34 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+八月 27, 2020 8:55:34 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\NLZ_HD\solrCloud\tomcat03\endorsed
+八月 27, 2020 8:55:34 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 8:55:34 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 8:55:34 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\NLZ_HD\solrCloud\tomcat03\temp
+八月 27, 2020 8:55:34 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+八月 27, 2020 8:55:34 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+八月 27, 2020 8:55:34 上午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+八月 27, 2020 8:55:35 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-8380"]
+八月 27, 2020 8:55:35 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8309"]
+八月 27, 2020 8:55:35 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 774 ms
+八月 27, 2020 8:55:35 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+八月 27, 2020 8:55:35 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+八月 27, 2020 8:55:35 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\docs
+八月 27, 2020 8:55:35 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\docs has finished in 183 ms
+八月 27, 2020 8:55:35 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\examples
+八月 27, 2020 8:55:35 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\examples has finished in 261 ms
+八月 27, 2020 8:55:35 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\host-manager
+八月 27, 2020 8:55:35 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\host-manager has finished in 30 ms
+八月 27, 2020 8:55:35 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\manager
+八月 27, 2020 8:55:35 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\manager has finished in 27 ms
+八月 27, 2020 8:55:35 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\ROOT
+八月 27, 2020 8:55:35 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\ROOT has finished in 22 ms
+八月 27, 2020 8:55:35 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\solr
+八月 27, 2020 8:55:38 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+八月 27, 2020 8:55:41 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\solr has finished in 5,973 ms
+八月 27, 2020 8:55:41 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-8380"]
+八月 27, 2020 8:55:41 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8309"]
+八月 27, 2020 8:55:41 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 6528 ms
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.8.0_251\jre
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_251-b08
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dsolr.solr.home=D:/NLZ_HD/solrCloud/solrhome03
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -DzkHost=localhost:2181,localhost:2182,localhost:2183
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\NLZ_HD\solrCloud\tomcat03\conf\logging.properties
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\NLZ_HD\solrCloud\tomcat03\endorsed
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\NLZ_HD\solrCloud\tomcat03\temp
+八月 27, 2020 9:06:04 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+八月 27, 2020 9:06:04 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+八月 27, 2020 9:06:04 上午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+八月 27, 2020 9:06:04 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-8380"]
+八月 27, 2020 9:06:04 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8309"]
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 753 ms
+八月 27, 2020 9:06:04 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+八月 27, 2020 9:06:04 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\docs
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\docs has finished in 182 ms
+八月 27, 2020 9:06:04 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\examples
+八月 27, 2020 9:06:05 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\examples has finished in 166 ms
+八月 27, 2020 9:06:05 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\host-manager
+八月 27, 2020 9:06:05 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\host-manager has finished in 32 ms
+八月 27, 2020 9:06:05 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\manager
+八月 27, 2020 9:06:05 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\manager has finished in 26 ms
+八月 27, 2020 9:06:05 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\ROOT
+八月 27, 2020 9:06:05 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\ROOT has finished in 22 ms
+八月 27, 2020 9:06:05 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\solr
+八月 27, 2020 9:06:07 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+八月 27, 2020 9:06:08 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\solr has finished in 3,621 ms
+八月 27, 2020 9:06:08 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-8380"]
+八月 27, 2020 9:06:08 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8309"]
+八月 27, 2020 9:06:08 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 4084 ms
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.8.0_251\jre
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_251-b08
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dsolr.solr.home=D:/NLZ_HD/solrCloud/solrhome03
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -DzkHost=localhost:2181,localhost:2182,localhost:2183
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\NLZ_HD\solrCloud\tomcat03\conf\logging.properties
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\NLZ_HD\solrCloud\tomcat03\endorsed
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\NLZ_HD\solrCloud\tomcat03\temp
+八月 27, 2020 9:10:51 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+八月 27, 2020 9:10:51 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+八月 27, 2020 9:10:51 上午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+八月 27, 2020 9:10:51 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-8380"]
+八月 27, 2020 9:10:51 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8309"]
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 760 ms
+八月 27, 2020 9:10:51 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+八月 27, 2020 9:10:51 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\docs
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\docs has finished in 184 ms
+八月 27, 2020 9:10:51 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\examples
+八月 27, 2020 9:10:52 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\examples has finished in 160 ms
+八月 27, 2020 9:10:52 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\host-manager
+八月 27, 2020 9:10:52 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\host-manager has finished in 36 ms
+八月 27, 2020 9:10:52 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\manager
+八月 27, 2020 9:10:52 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\manager has finished in 30 ms
+八月 27, 2020 9:10:52 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\ROOT
+八月 27, 2020 9:10:52 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\ROOT has finished in 22 ms
+八月 27, 2020 9:10:52 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\solr
+八月 27, 2020 9:10:54 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+八月 27, 2020 9:10:55 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\solr has finished in 3,623 ms
+八月 27, 2020 9:10:55 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-8380"]
+八月 27, 2020 9:10:55 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8309"]
+八月 27, 2020 9:10:55 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 4086 ms
+八月 27, 2020 10:09:11 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+八月 27, 2020 10:09:11 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+八月 27, 2020 10:09:11 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+八月 27, 2020 10:09:11 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+八月 27, 2020 10:09:11 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+八月 27, 2020 10:09:11 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+八月 27, 2020 10:09:11 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.8.0_251\jre
+八月 27, 2020 10:09:11 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_251-b08
+八月 27, 2020 10:09:11 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+八月 27, 2020 10:09:11 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 10:09:11 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 10:09:11 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dsolr.solr.home=D:/NLZ_HD/solrCloud/solrhome03
+八月 27, 2020 10:09:11 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -DzkHost=localhost:2181,localhost:2182,localhost:2183
+八月 27, 2020 10:09:11 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\NLZ_HD\solrCloud\tomcat03\conf\logging.properties
+八月 27, 2020 10:09:11 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+八月 27, 2020 10:09:11 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\NLZ_HD\solrCloud\tomcat03\endorsed
+八月 27, 2020 10:09:11 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 10:09:11 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 10:09:11 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\NLZ_HD\solrCloud\tomcat03\temp
+八月 27, 2020 10:09:11 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+八月 27, 2020 10:09:11 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+八月 27, 2020 10:09:12 上午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+八月 27, 2020 10:09:12 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-8380"]
+八月 27, 2020 10:09:12 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8309"]
+八月 27, 2020 10:09:12 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 934 ms
+八月 27, 2020 10:09:12 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+八月 27, 2020 10:09:12 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+八月 27, 2020 10:09:12 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\docs
+八月 27, 2020 10:09:12 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\docs has finished in 231 ms
+八月 27, 2020 10:09:12 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\examples
+八月 27, 2020 10:09:13 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\examples has finished in 277 ms
+八月 27, 2020 10:09:13 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\host-manager
+八月 27, 2020 10:09:13 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\host-manager has finished in 32 ms
+八月 27, 2020 10:09:13 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\manager
+八月 27, 2020 10:09:13 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\manager has finished in 27 ms
+八月 27, 2020 10:09:13 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\ROOT
+八月 27, 2020 10:09:13 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\ROOT has finished in 21 ms
+八月 27, 2020 10:09:13 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\solr
+八月 27, 2020 10:09:16 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+八月 27, 2020 10:09:18 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\solr has finished in 4,989 ms
+八月 27, 2020 10:09:18 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-8380"]
+八月 27, 2020 10:09:18 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8309"]
+八月 27, 2020 10:09:18 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 5658 ms
+八月 27, 2020 10:55:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+八月 27, 2020 10:55:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+八月 27, 2020 10:55:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+八月 27, 2020 10:55:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+八月 27, 2020 10:55:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+八月 27, 2020 10:55:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+八月 27, 2020 10:55:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.8.0_251\jre
+八月 27, 2020 10:55:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_251-b08
+八月 27, 2020 10:55:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+八月 27, 2020 10:55:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 10:55:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 10:55:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dsolr.solr.home=D:/NLZ_HD/solrCloud/solrhome03
+八月 27, 2020 10:55:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -DzkHost=localhost:2181,localhost:2182,localhost:2183
+八月 27, 2020 10:55:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\NLZ_HD\solrCloud\tomcat03\conf\logging.properties
+八月 27, 2020 10:55:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+八月 27, 2020 10:55:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\NLZ_HD\solrCloud\tomcat03\endorsed
+八月 27, 2020 10:55:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 10:55:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 10:55:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\NLZ_HD\solrCloud\tomcat03\temp
+八月 27, 2020 10:55:24 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+八月 27, 2020 10:55:24 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+八月 27, 2020 10:55:25 上午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+八月 27, 2020 10:55:25 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-8380"]
+八月 27, 2020 10:55:25 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8309"]
+八月 27, 2020 10:55:25 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 856 ms
+八月 27, 2020 10:55:25 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+八月 27, 2020 10:55:25 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+八月 27, 2020 10:55:25 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\docs
+八月 27, 2020 10:55:25 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\docs has finished in 252 ms
+八月 27, 2020 10:55:25 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\examples
+八月 27, 2020 10:55:25 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\examples has finished in 337 ms
+八月 27, 2020 10:55:25 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\host-manager
+八月 27, 2020 10:55:25 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\host-manager has finished in 39 ms
+八月 27, 2020 10:55:25 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\manager
+八月 27, 2020 10:55:25 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\manager has finished in 33 ms
+八月 27, 2020 10:55:25 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\ROOT
+八月 27, 2020 10:55:25 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\ROOT has finished in 24 ms
+八月 27, 2020 10:55:25 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\solr
+八月 27, 2020 10:55:29 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+八月 27, 2020 10:55:31 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\solr has finished in 5,718 ms
+八月 27, 2020 10:55:31 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-8380"]
+八月 27, 2020 10:55:31 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8309"]
+八月 27, 2020 10:55:31 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 6443 ms
+八月 27, 2020 11:18:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+八月 27, 2020 11:18:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+八月 27, 2020 11:18:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+八月 27, 2020 11:18:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+八月 27, 2020 11:18:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+八月 27, 2020 11:18:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+八月 27, 2020 11:18:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.8.0_251\jre
+八月 27, 2020 11:18:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_251-b08
+八月 27, 2020 11:18:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+八月 27, 2020 11:18:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 11:18:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 11:18:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dsolr.solr.home=D:/NLZ_HD/solrCloud/solrhome03
+八月 27, 2020 11:18:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -DzkHost=localhost:2181,localhost:2182,localhost:2183
+八月 27, 2020 11:18:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\NLZ_HD\solrCloud\tomcat03\conf\logging.properties
+八月 27, 2020 11:18:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+八月 27, 2020 11:18:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\NLZ_HD\solrCloud\tomcat03\endorsed
+八月 27, 2020 11:18:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 11:18:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 11:18:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\NLZ_HD\solrCloud\tomcat03\temp
+八月 27, 2020 11:18:56 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+八月 27, 2020 11:18:56 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+八月 27, 2020 11:18:56 上午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+八月 27, 2020 11:18:57 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-8380"]
+八月 27, 2020 11:18:57 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8309"]
+八月 27, 2020 11:18:57 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 793 ms
+八月 27, 2020 11:18:57 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+八月 27, 2020 11:18:57 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+八月 27, 2020 11:18:57 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\docs
+八月 27, 2020 11:18:57 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\docs has finished in 181 ms
+八月 27, 2020 11:18:57 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\examples
+八月 27, 2020 11:18:57 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\examples has finished in 163 ms
+八月 27, 2020 11:18:57 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\host-manager
+八月 27, 2020 11:18:57 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\host-manager has finished in 32 ms
+八月 27, 2020 11:18:57 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\manager
+八月 27, 2020 11:18:57 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\manager has finished in 27 ms
+八月 27, 2020 11:18:57 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\ROOT
+八月 27, 2020 11:18:57 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\ROOT has finished in 21 ms
+八月 27, 2020 11:18:57 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\solr
+八月 27, 2020 11:18:59 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+八月 27, 2020 11:19:06 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\solr has finished in 8,943 ms
+八月 27, 2020 11:19:06 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-8380"]
+八月 27, 2020 11:19:06 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8309"]
+八月 27, 2020 11:19:06 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 9398 ms
+八月 27, 2020 2:34:17 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+八月 27, 2020 2:34:17 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+八月 27, 2020 2:34:17 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+八月 27, 2020 2:34:17 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+八月 27, 2020 2:34:17 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+八月 27, 2020 2:34:17 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+八月 27, 2020 2:34:17 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.8.0_251\jre
+八月 27, 2020 2:34:17 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_251-b08
+八月 27, 2020 2:34:17 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+八月 27, 2020 2:34:17 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 2:34:17 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 2:34:17 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dsolr.solr.home=D:/NLZ_HD/solrCloud/solrhome03
+八月 27, 2020 2:34:17 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -DzkHost=localhost:2181,localhost:2182,localhost:2183
+八月 27, 2020 2:34:17 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\NLZ_HD\solrCloud\tomcat03\conf\logging.properties
+八月 27, 2020 2:34:17 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+八月 27, 2020 2:34:17 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\NLZ_HD\solrCloud\tomcat03\endorsed
+八月 27, 2020 2:34:17 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 2:34:17 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 2:34:17 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\NLZ_HD\solrCloud\tomcat03\temp
+八月 27, 2020 2:34:17 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+八月 27, 2020 2:34:17 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+八月 27, 2020 2:34:18 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+八月 27, 2020 2:34:18 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-8380"]
+八月 27, 2020 2:34:18 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8309"]
+八月 27, 2020 2:34:18 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 776 ms
+八月 27, 2020 2:34:18 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+八月 27, 2020 2:34:18 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+八月 27, 2020 2:34:18 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\docs
+八月 27, 2020 2:34:18 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\docs has finished in 180 ms
+八月 27, 2020 2:34:18 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\examples
+八月 27, 2020 2:34:18 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\examples has finished in 249 ms
+八月 27, 2020 2:34:18 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\host-manager
+八月 27, 2020 2:34:18 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\host-manager has finished in 32 ms
+八月 27, 2020 2:34:18 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\manager
+八月 27, 2020 2:34:18 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\manager has finished in 26 ms
+八月 27, 2020 2:34:18 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\ROOT
+八月 27, 2020 2:34:18 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\ROOT has finished in 21 ms
+八月 27, 2020 2:34:18 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\solr
+八月 27, 2020 2:34:20 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+八月 27, 2020 2:34:29 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\solr has finished in 10,187 ms
+八月 27, 2020 2:34:29 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-8380"]
+八月 27, 2020 2:34:29 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8309"]
+八月 27, 2020 2:34:29 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 10727 ms
+八月 27, 2020 3:54:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+八月 27, 2020 3:54:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+八月 27, 2020 3:54:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+八月 27, 2020 3:54:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+八月 27, 2020 3:54:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+八月 27, 2020 3:54:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+八月 27, 2020 3:54:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.8.0_251\jre
+八月 27, 2020 3:54:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_251-b08
+八月 27, 2020 3:54:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+八月 27, 2020 3:54:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 3:54:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 3:54:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dsolr.solr.home=D:/NLZ_HD/solrCloud/solrhome03
+八月 27, 2020 3:54:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -DzkHost=localhost:2181,localhost:2182,localhost:2183
+八月 27, 2020 3:54:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\NLZ_HD\solrCloud\tomcat03\conf\logging.properties
+八月 27, 2020 3:54:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+八月 27, 2020 3:54:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\NLZ_HD\solrCloud\tomcat03\endorsed
+八月 27, 2020 3:54:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 3:54:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 3:54:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\NLZ_HD\solrCloud\tomcat03\temp
+八月 27, 2020 3:54:03 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+八月 27, 2020 3:54:03 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+八月 27, 2020 3:54:04 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+八月 27, 2020 3:54:04 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-8380"]
+八月 27, 2020 3:54:04 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8309"]
+八月 27, 2020 3:54:04 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 868 ms
+八月 27, 2020 3:54:04 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+八月 27, 2020 3:54:04 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+八月 27, 2020 3:54:04 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\docs
+八月 27, 2020 3:54:04 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\docs has finished in 207 ms
+八月 27, 2020 3:54:04 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\examples
+八月 27, 2020 3:54:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\examples has finished in 341 ms
+八月 27, 2020 3:54:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\host-manager
+八月 27, 2020 3:54:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\host-manager has finished in 35 ms
+八月 27, 2020 3:54:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\manager
+八月 27, 2020 3:54:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\manager has finished in 30 ms
+八月 27, 2020 3:54:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\ROOT
+八月 27, 2020 3:54:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\ROOT has finished in 23 ms
+八月 27, 2020 3:54:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\solr
+八月 27, 2020 3:54:08 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+八月 27, 2020 3:54:44 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+八月 27, 2020 3:54:44 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+八月 27, 2020 3:54:44 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+八月 27, 2020 3:54:44 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+八月 27, 2020 3:54:44 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+八月 27, 2020 3:54:44 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+八月 27, 2020 3:54:44 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.8.0_251\jre
+八月 27, 2020 3:54:44 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_251-b08
+八月 27, 2020 3:54:44 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+八月 27, 2020 3:54:44 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 3:54:44 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 3:54:44 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dsolr.solr.home=D:/NLZ_HD/solrCloud/solrhome03
+八月 27, 2020 3:54:44 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -DzkHost=localhost:2181,localhost:2182,localhost:2183
+八月 27, 2020 3:54:44 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\NLZ_HD\solrCloud\tomcat03\conf\logging.properties
+八月 27, 2020 3:54:44 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+八月 27, 2020 3:54:44 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\NLZ_HD\solrCloud\tomcat03\endorsed
+八月 27, 2020 3:54:44 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 3:54:44 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\NLZ_HD\solrCloud\tomcat03
+八月 27, 2020 3:54:44 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\NLZ_HD\solrCloud\tomcat03\temp
+八月 27, 2020 3:54:44 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+八月 27, 2020 3:54:44 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+八月 27, 2020 3:54:45 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+八月 27, 2020 3:54:45 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-8380"]
+八月 27, 2020 3:54:45 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8309"]
+八月 27, 2020 3:54:45 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 779 ms
+八月 27, 2020 3:54:45 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+八月 27, 2020 3:54:45 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+八月 27, 2020 3:54:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\docs
+八月 27, 2020 3:54:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\docs has finished in 177 ms
+八月 27, 2020 3:54:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\examples
+八月 27, 2020 3:54:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\examples has finished in 161 ms
+八月 27, 2020 3:54:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\host-manager
+八月 27, 2020 3:54:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\host-manager has finished in 31 ms
+八月 27, 2020 3:54:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\manager
+八月 27, 2020 3:54:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\manager has finished in 27 ms
+八月 27, 2020 3:54:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\ROOT
+八月 27, 2020 3:54:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\ROOT has finished in 21 ms
+八月 27, 2020 3:54:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\solr
+八月 27, 2020 3:54:47 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+八月 27, 2020 3:54:49 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\NLZ_HD\solrCloud\tomcat03\webapps\solr has finished in 3,524 ms
+八月 27, 2020 3:54:49 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-8380"]
+八月 27, 2020 3:54:49 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8309"]
+八月 27, 2020 3:54:49 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 3972 ms
